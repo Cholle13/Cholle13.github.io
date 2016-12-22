@@ -1693,10 +1693,10 @@
 		text-align: right;
 	}
 	
-	#two {
+	#body > two {
 		background: #fdfaee;
 	}
-	#three{
+	#body > three{
 		background: #fdfaee;
 	}
 	
