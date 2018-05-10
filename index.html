@@ -1,233 +1,710 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  
+  <title>Christopher Holle</title>
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/rubick.css" rel="stylesheet"/>    
+    
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="assets/css/fonts/Rubik-Fonts.css" rel="stylesheet" />
+</head>
+
+<body id="skrollr-body">
+<div class="loading ">
+  <div class="loading-container">
+    <p>Just a sec...</p>
+    <img class="loader" src="assets/img/rubik.svg"/>
+  </div>
+</div>
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
+    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+    
+    <div class="container">
+    <div class="navbar-header">
+        <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+        </button>
+        <a href="http://www.creative-tim.com" class="navbar-brand">
+           Christopher Holle
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-1" >
+      <ul class="nav navbar-nav navbar-right navbar-uppercase">
+            <li class="social-links">
+                <a href="https://www.facebook.com/christopher.holle.79"> 
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/ChrisHolle16"> 
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/c.holle/"> 
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Cholle13" class="btn btn-social btn-github btn-simple">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
 <!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+            <li>
+                <a href="" data-scroll="true" data-id="#whoWeAre"> 
+                    About
+                </a>
+            </li>
 -->
-<html>
-	<head>
-		<title>Christopher Holle</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+            <li>
+                <a href="" data-scroll="true" data-id="#workflow"> 
+                    Work Ethic
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#projects"> 
+                    Portfolio
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#clients"> 
+                    Technologies
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#numbers"> 
+                    Stats
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#contact"> 
+                    Contact
+                </a>
+            </li>
+            <li>
+                <a href="assets/Chrisresume.pdf"> 
+                    Resume
+                </a>
+            </li>
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/15199519.jpeg" alt="" /></span>
-					<h1 id="logo"><a href="#">Christopher Holle</a></h1>
-					<p>Student / Developer<br />
-					“You can do anything you set your mind to.”<br />
-						- Benjamin Franklin</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Areas of Expertise</a></li>
-						<li><a href="#twotable">Skills</a></li>
-						<li><a href="#three">Projects</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://twitter.com/ChrisHolle16" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/christopher.holle.79" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/c.holle/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/Cholle13" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/chris-holle" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
-						<li><a href="mailto:chrisaholle@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+  
+<div class="wrapper">
+    <div class="section section-header">
+        <div class="parallax filter filter-gradient-5"> 
+            <img src="assets/img/appleLaptop.jpg"/>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            <div class="container">
+                <div class="content">
+                    <p>Cultivation of a<p>
+                    <h1>Developer</h1>
+                    <div class="separator-container">
+                      <div class="separator line-separator">C</div>
+                    </div>
+                    <p>“You can do anything you set your mind to.” </p> 
+                  
+                    <h5>- Benjamin Franklin</h5>
+                </div>
+            </div>
+            <a href="" data-scroll="true" data-id="#workflow" class="scroll-arrow hidden-xs hidden-sm">
+                    <i class="fa fa-angle-down"></i>
+            </a>
+        </div>
+    </div>
 
-				<!-- Main -->
-					<div id="main">
+<!--
+    <div class="section section-we-are-2" id="whoWeAre">
+       <div class="text-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                      <div  class="title add-animation">
+                          <h5 class="text-gray">Est. 1998</h5>
+                          <h2>Who am I?</h2>
+                          <div class="separator-container">
+                          <div class="separator line-separator">C</div>
+                        </div>
+                      </div>  
+                    </div>
+                    
+                    <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
+                      <div class="description add-animation animation-1">
+                        <p>Born and raised in Texas</p>
+                        <p>Highly motivated with exceptional leadership and time management skills. Finely-tuned analytical skills with a dedication to expanding intellectual growth and workplace competencies through continuing research and training; willingly assume extra responsibility to ensure optimal and timely project execution.</p>
+                    
+                      </div>
+                    </div>
+                </div>          
+            </div>
+        </div>
+-->
 
-						<!-- One -->
-							<section id="one">
-								<div class="container">
-									<header class="major">
-										<h2>About Me</h2>
-									</header>
-									<p>Young and determined Computer Science student at Baylor with 3 years of non-business experience in Computer Science. 
-										Logical and morally oriented with four years of Customer Service and sales experience. 
-										Very fast learner and fast to develop innovative ideas to solve problems.</p>
-								</div>
-							</section>
+<!--
+      <div id="carousel">
+        <div id="carousel-example-generic" class="carousel slide add-animation add-animation-1" data-interval="false">
+-->
+          <!-- Wrapper for slides -->
+<!--
+          <div class="carousel-inner pattern-image animate"> 
+            <div class="item  active">
+              <img class="full-image" src="assets/img/rubik_background4.jpg" alt="Awesome Image"/>
+            </div>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Areas of Expertise</h3>
-									<p>I have gained experience in many different fields, I seem to have found my calling in Computer Science. 
-										I am constantly learning and taking different courses to cover a broad range of the field of Computer Science with a focus on Software Engineering/Developement. 
-										Looking to take on summer internships to further my knowledge while studying in College.</p>
-									<ul class="feature-icons">
-										<li class="fa-code">Computer Science</li>
-										<li class="fa-code">Software Development</li>
-										<li class="fa-code">Computer Repair</li>
-										<li class="fa-code">3D-Printing</li>
-										<li class="fa-book">Project Management(Read the Books)</li>
-										<li class="fa-users">Business/Sales</li>
-										<li class="fa-globe">Geology</li>
-										<li class="fa-photo">Landscaping</li>
-										<li class="fa-tree">Botany</li>
-										<li class="fa-wrench">Ranch-Hand</li>
-									</ul>
-									
-								</div>
-							</section>
-						<!-- TwoTable -->
-							<section id="twotable">
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<td><h3>Skills</h3></td>
-											</tr>
-											<tr>
-												<td>Programming</td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Advanced</td>
-												<td>C/C++, Java, x86_64 Assembly, HTML, CSS</td>
-											</tr>
-											<tr>
-												<td>Novice</td>
-												<td>Swift, Python, Javascript</td>
-											</tr>
-											<tr>
-												<td>IDE/Environment</td>
-												<td> Eclipse, Xcode, NetBeans, Git, Code::Blocks, Lab-View, Intel XDK</td>
-											</tr>
-											<tr>
-												<td>OS</td>
-												<td>Mac OSX, Windows(Vista - 10), Raspbian(Debian)</td>
-											</tr>
-										</tbody>
-										<tfoot>
-									</table>
-								</div>
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<td>Other</td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Project Management</td>
-												<td>Agile, Scrum(basic knowledge)</td>
-											</tr>
-											<tr>
-												<td>Botany</td>
-												<td>4 years of working experience</td>
-											</tr>
-											<tr>
-												<td>Computer Repair</td>
-												<td>Working on Comptia A+ certification</td>
-											</tr>
-											<tr>
-												<td>Landscaping</td>
-												<td>Freelanced(2 years)</td>
-											</tr>
-											<tr>
-												<td>Ranch-Hand</td>
-												<td>Born and raised on a farm(Lots of experience)</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</section>
+            <div class="item">
+               <img class="full-image" src="assets/img/rubik_background4.jpg" alt="Awesome Image"/>
+            </div>
+          </div>
+-->
+          <!-- Controls -->
+<!--
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="fa fa-angle-left hidden-md hidden-lg"></span></a>      
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="fa fa-angle-right hidden-ms hidden-lg"></span></a>        
+        </div>
+      </div>  
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>A few projects I've worked on</h3>
-									<p>Future Projects Coming soon. If you have any ideas for new or existing projects, please contact me!</p>
-									<div class="features">
-										<article>
-											<a href="https://cholle13.github.io/Pokemon-Go/" class="image"><img src="images/Victory.png" alt="" /></a>
-											<div class="inner">
-												<h4>Pokemon-Go</h4>
-												<p>A Pokemon Game built using SDL(Simple DirectMedia Layer)</p>
-											</div>
-										</article>
-										<article>
-											<a href="http://evolv3d.us/category/evolv3d-labs-in-the-news/" class="image"><img src="images/kaedon-3D-printed-hand-fitting-768x432.png" alt="" /></a>
-											<div class="inner">
-												<h4>Evolv3d Labs</h4>
-												<p>Creating 3d-Printed prosthetics for children with hand/arm deformities.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/hackpic.jpeg" alt="" /></a>
-											<div class="inner">
-												<h4>Hacking Competitions</h4>
-												<p>Competing in hacking competitions to build a stronger cybersecurity base.</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+    </div> -->
+    
+    <div class="section section-we-do-1" id="workflow">
+      <div class="text-area">
+        <div class="container">
+            <div class="row">
+              <div  class="title add-animation">  
+                   <h5 class="text-gray">Discover</h5>       
+                   <h2>How I work</h2>
+                   <div class="separator-container">
+                        <div class="separator line-separator">C</div>
+                    </div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                     <div class="card add-animation animation-1">
+                       <h5 class="text-gray">-1-</h5>
+                       <h3>Lead</h3>
+                       <p>Have you ever tried leading a group of fraternity men to do service? Well I have and it is not easy. My experience in leadership has developed my abilities to lead tremendously by attending leadership and executive conferences as well as leading various events.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                   <div class="card add-animation animation-2">
+                       <h5 class="text-gray">-2-</h5>
+                       <h3>Motivate</h3>
+                       <p>Self-Motivation is one of my biggest allies that powers my determination to see projects from start to finish in a timely manner. I use my positivity and energy to motivate those around me.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                     <div class="card add-animation animation-3">
+                       <h5 class="text-gray">-3-</h5>
+                       <h3>Ideation</h3>
+                       <p>Need new ideas/innovations or someone who adapts quickly? Well then I'm your guy! Ideation is one of my top strengths and with it I am able to come up with innovative solutions to problems.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                    <div class="card add-animation animation-4">
+                       <h5 class="text-gray">-4-</h5>
+                       <h3>Team Player</h3>
+                       <p>My high energy and positivity mixed with my skillset and ability to lead by example creates a fun working environment for my teamates. Not only am I a fun teamate to work with, but I collaboration with other to create amazing results.</p>
+                   </div>
+               </div>
+            </div>
+        </div>
+      </div>
+    </div>
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Feel free to contact me around the web!</p>
-									<form method="post" action="https://formspree.io/Christopher_Holle@baylor.edu">
-										<div class="row uniform">
-											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</section>
-						<!-- Footer -->
- 					<section id="footer">
- 						<div class="container">
- 							<ul class="copyright">
- 								<li>&copy;2016 Christopher Holle. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
- 							</ul>
- 						</div>
- 					</section>
+    <div class="section section-we-made-1 section-with-hover" id="projects">
+         <div class="text-area">
+            <div class="title add-animation">
+                <h5 class="text-gray">See My Work</h5>
+                <h2>Portfolio</h2>
+                <div class="separator-container">
+                    <div class="separator line-separator">C</div>
+                </div>
+            </div>
+         </div>
 
-			</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="project add-animation animation-1">
+                      <img src="assets/img/TownTrotterSS.png"/>
+                      <a class="over-area " href="http://towntrotterapp.com">
+                           <div class="content">
+                              <h4>TownTrotter</h4>
+                              <p>An IOS app that builds local engagement in college communities.</p>
+                               <p>Techonologies: Swift, PHP Laravel, Angular, TypeScript, Bootstrap, CSS, HTML</p>
+                              <p>Click to visit...</p>
+                          </div>
+                      </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project add-animation animation-2">
+                      <img src="assets/img/PersonalWebsite.png"/>
+                       <a class="over-area">
+                           <div class="content">
+                              <h4 >Personal Website.</h4>
+                              <p>Personal website developed to showcase software development and host repositories for future open source builds.</p>
+                          </div>
+                      </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project add-animation animation-1">
+                    <img src="assets/img/TaSQLSS.png">
+                    <a class="over-area " href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_3">
+                         <div class="content">
+                            <h4 >Task Manager</h4>
+                            <p>A task manager built for a database project at Baylor University.</p>
+                            <p>Technologies: PHP, MySQL, Javascript, HTML, CSS, Bootstrap</p>
+                            <p>Click for more details...</p>
+                        </div>
+                    </a>
+                 </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project add-animation animation-2">
+                    <img src="assets/img/OldPersonalWeb.png">
+                    <a class="over-area " href="http://cholle13.github.io">
+                         <div class="content">
+                            <h4 >Old Personal Website</h4>
+                            <p>Just a personal website that I worked on back in my younger days</p>
+                            <p>Click to view...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+<!--
+            <div class="col-md-6">
+                <div class="project add-animation animation-2">
+                    <img src="assets/img/3-DPrintedHand.png">
+                    <a class="over-area " href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_4">
+                         <div class="content">
+                            <h4 >3D Printing Prosthetics</h4>
+                            <p>Whatever you’re doing or feeling, we’ll find playlists to match your mood.</p>
+                            <p>Click for more details...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+-->
+          </div>
+       </div>
+    
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+       <div class="section section-clients-1" id="clients">
+        <div class="container">
+            <div class="text-area">
+                <div class="title add-animation">
+                    <h5 class="text-gray">Technologies &</h5>
+                    <h2>Languages</h2>
+                    <div class="separator-container">
+                        <div class="separator line-separator">C</div>
+                    </div>
+                    <p>These are just a few Software Development technologies that I have worked with and enjoyed using.</p>
+                </div>
+            </div>
+            
+          <div class="list-logos">  
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-1">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/java/java-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/java/java-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/cplusplus/cplusplus-plain.svg"/>
+                        <img alt="..." src="assets/img/icons/cplusplus/cplusplus-original.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-3">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/c/c-plain.svg"/>
+                        <img alt="..." src="assets/img/icons/c/c-original.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-1">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/javascript/javascript-plain.svg"/>
+                        <img alt="..." src="assets/img/icons/javascript/javascript-original.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/html5/html5-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/html5/html5-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-3">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/php/php-plain.svg"/>
+                        <img alt="..." src="assets/img/icons/php/php-original.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-1">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/css3/css3-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/css3/css3-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/angularjs/angularjs-plain.svg"/>
+                        <img alt="..." src="assets/img/icons/angularjs/angularjs-original.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-3">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-1">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/git/git-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/git/git-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/redhat/redhat-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/redhat/redhat-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-3">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/bootstrap/bootstrap-plain.svg"/>
+                        <img alt="..." src="assets/img/icons/bootstrap/bootstrap-plain.svg"/>
+                        
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/mysql/mysql-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/mysql/mysql-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/postgresql/postgresql-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/postgresql/postgresql-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo add-animation animation-2">
+                        <a href="#"> 
+                        <img alt="..." src="assets/img/icons/redhat/redhat-plain-wordmark.svg"/>
+                        <img alt="..." src="assets/img/icons/redhat/redhat-original-wordmark.svg"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+<!--
+    <div class="section section-team-1">
+      <div class="container">         
+         <div class="text-area">
+            <div class="title add-animation">
+                <h5 class="quotes large">The app is just amazing, I actually used everywhere. It just makes my life easier</h5>
+                <br>
+                <p>Cherciu,Designer @ UNIBUC</p> 
+            </div>
+        </div>
+      </div>
+      <div class="static-image gradient-image add-animation animation-1">
+        <img src="assets/img/team/team1.jpg"/>
+      </div>
+    </div> -->
 
-	</body>
+   <div class="section section-numbers-1" id="numbers">
+        <div class="container">
+             <div class="text-area">
+                <div class="title add-animation">
+                    <h5 class="text-gray">Stats</h5>
+                    <h2>Here are the facts</h2>
+                    <div class="separator-container">
+                      <div class="separator line-separator">C</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="clearfix"></div>
+            <div class="row">
+               <div class="col-md-4 col-sm-4">
+                  <div class="card add-animation animation-1">
+                       <h3>Experience</h3>
+                       <h5 class="text-gray">Years since Hello World!</h5>
+                       <div class="number" id="customersNo">
+                        7
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                   <div class="card add-animation animation-2">
+                       <h3>Projects</h3>
+                       <h5 class="text-gray">Development & Engineering Projects</h5>
+                       <div class="number" id="projectsNo">
+                        18
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                  <div class="card add-animation animation-3">
+                       <h3>Baylor University</h3>
+                       <h5 class="text-gray">Graduation year</h5>
+                       <div class="number" id="citiesNo">
+                           2020
+                       </div>
+                   </div>
+               </div> 
+            </div>
+        </div>          
+    </div>
+
+    <div class="section section-contact-3" id="contact">
+        <div class="contact-container">
+            <div class="address-container add-animation animation-1">
+                <div class="address">
+                    <h4>Where to meet ?</h4>
+                    <p class="text-gray">
+                        2001 S 5th Street<br>
+                        Waco, TX<br>
+                        77833
+                    </p>
+                    <h4>Phone</h4>
+                    <p class="text-gray">(979)451-5466</p>
+                    <h4>By the old way</h4>
+                    <a href="mailto:chrisaholle@gmail..com">
+                        <p class="text-gray">chrisaholle@gmail.com</p>
+                    </a>                           
+                </div>
+            </div>
+            <div  class="map">
+                <div id="contactUsMap" class="big-map"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer footer-big footer-color-white" id="footerTrigger">
+        <div class="container">
+            <hr>
+            <div class="copyright">
+                © 2018 Christopher Holle
+            </div>
+        </div>
+    </footer>
+</div> <!-- end wrapper -->
+
+<div class="project-content" id="project_1">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+          <h5 >Find out how</h5>
+            <h2>Great sound makes everything better</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">♫</div>
+            </div>
+        </div>
+        <div class="product">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="project-text text-right">
+                  <p>We love that you're trying new things. Designed for music lovers who don't sacrifice sound for style, our headphones deliver pure audio in an ultra-lightweight and durable package.</p>
+                  <p>A solid metallic housing, matched with the newest gold, silver and space gray edition colors, will be your phone’s perfect match. </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="project-image">
+                  <img src="assets/img/rubik_background3.png"/>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="project-text">
+                  <p>The tangle-free cable with built-in-mic will help you effortlessly switch between music and calls so that you can enjoy premium, uninterrupted sound.</p>
+                  <p>Each headphone is milled from a single, solid piece of material. Graphite brushed aluminum model shown.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project-content" id="project_2">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+          <h5 >The app</h5>
+            <h2>Hear the sound of the world</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">♫</div>
+            </div>
+        </div>
+        <div class="product">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="project-text text-right">
+                  <p>More quick. More slick. One thumb is all you need.
+                  </p>
+                  <p>Tap to play and pause. Swipe to skip tracks. Slide the waveform to scrub. The app is beautifully simple to use. But your thumb won’t need to work too hard – it’s easier than ever to hear more of the world’s sounds.</p>
+                   <p> The tracks you’ve liked and discovered, and your favorite playlists can all be found in your Collection. Which means you can listen to what you love again and again. And again.</p>
+
+
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="project-image">
+                  <img src="assets/img/rubik_background3.png"/>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="project-text">
+                  <p>More likes. More playlists. All in one place. </p>
+                  <p>More upfront. More personal. Straight from the source.</p>
+                  <p>The Profile screen organizes the tracks, playlists and likes of everyone on SoundCloud. Whether they’re posting original music or liking and reposting tracks. The important stuff can all be found right up front.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project-content" id="project_3">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h2>TaSQL</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">C</div>
+            </div>
+        </div>
+        <div class="product">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="project-text text-center">
+                  <h3>Software Development</h3>
+                  <p>I worked through design to implement a beautiful front-end for the TaSQL dashboard as well as an Admin Panel.</p>
+                  <p>My skills in PHP expanded rapidly as we were required to use vanilla php to communicate with a MySQL Database.</p>
+                  <p>My team and I designed a normalized database to store users data and tasks.</p>
+                  <p>Technologies: PHP, MySQL, Javascript, HTML, CSS, Bootstrap</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="project-text text-center">
+                  <h3>Project Management</h3>
+                  <p>Utilized Agile Methodologies</p>
+                  <p>Through issue tracking and milestones I was able to delegate task to my teamates to be accomplished in a timely manner. I wrote wiki pages and documented all code written to increase productivity.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project-content" id="project_4">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+          <h5 >Learn how to</h5>
+            <h2>Go with the moment</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">♫</div>
+            </div>
+        </div>
+        <div class="product">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="project-text text-right">
+                  <p>Glam out. Premium sound and flawless style come together for the Play It headphones. Elevate your listening experience with this luxe collection of wireless products.</p>
+                  <p>If you're listening on your headphones, silence the noise from your daily commute or the drama from your loud neighbors with our no-compromise dual-mode Adaptive Noise Canceling (ANC).</p>
+                 
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="project-image">
+                  <img src="assets/img/rubik_background3.png"/>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="project-text">
+                  <p>Our Acoustic Engine in the headphones gives you an intimate, real encounter with your music. </p>
+                  <p>Take calls, skip songs, and change the volume right from the headphone. Or use the headphones's built-in speakerphone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+  <!--   core js files    -->
+  <script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+  
+  <!--   file for adding vertical points where we activate the elements animation   -->
+  <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+
+  <!--  js library for devices recognition -->
+  <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+  <!--   file where we handle all the script from the Rubik page   -->
+  <script type="text/javascript" src="assets/js/rubick.js"></script>
+  
+  <!--  script for google maps   -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    
 </html>
